@@ -74,28 +74,28 @@ function randomGroup(){
     }
     
     // BONUS SOLUTION METHOD #1
-    const temp = [];
-    while(temp.length<3){
-        const number = Math.random()*students.length; // long decimal
-        const index = Math.floor(number); // removes decimal
-        const student = students[index];
-        // notice the "!", which negates the boolean
-        if(!temp.includes(student)){
-            // if the student is NOT included in the temp array...
-            temp.push(student);
-        }
-    }
-    console.log(temp); // just logging the whole array 'cause I'm lazy
+    // const temp = [];
+    // while(temp.length<3){
+    //     const number = Math.random()*students.length; // long decimal
+    //     const index = Math.floor(number); // removes decimal
+    //     const student = students[index];
+    //     // notice the "!", which negates the boolean
+    //     if(!temp.includes(student)){
+    //         // if the student is NOT included in the temp array...
+    //         temp.push(student);
+    //     }
+    // }
+    // console.log(temp); // just logging the whole array 'cause I'm lazy
 
     // BONUS SOLUTION METHOD #2
-    for(let i = 0; i<3;i++){
-        const number = Math.random()*students.length; // long decimal
-        const index = Math.floor(number); // removes decimal
+    // for(let i = 0; i<3;i++){
+    //     const number = Math.random()*students.length; // long decimal
+    //     const index = Math.floor(number); // removes decimal
         
-        // removes the 1 item from array and stores into variable (as an array)
-        // since item removed, can't be picked again!
-        const student = students.splice(index,1);
-        console.log(student[0]);
-    }
+    //     // removes the 1 item from array and stores into variable (as an array)
+    //     // since item removed, can't be picked again!
+    //     const student = students.splice(index,1);
+    //     console.log(student[0]);
+    // }
 }
 

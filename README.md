@@ -6,7 +6,7 @@
 2. In command line, navigate to your "Documents" Folder:
    - Clone the repo to your computer using `git clone {url}`
 3. Inside of this repo, create a file called "randomness.js"
-   - Copy (`Ctrl+C`) and paste (`Ctrl+V`) this code into the file
+   - Copy (`Ctrl+C`) and paste (`Ctrl+V`) [this code](https://raw.githubusercontent.com/AllStarCodeOrg/week0.day3.randomness/master/randomness.js) into the file
 4. Inside of this file, create the following 5 functions:
    - `randomNumber` - should `console.log` a random number between 0 and 21 (exclusively)
    - `randomLetter` - should `console.log` a random letter from the alphabet
